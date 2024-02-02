@@ -1,0 +1,95 @@
+2023-12-19T07:18:07+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/themes/hello-elementor-child/include/otp/email-otp.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:33
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 33
+
+2023-12-19T07:30:07+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/themes/hello-elementor-child/includes/.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:28
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 28
+
+2023-12-19T07:49:46+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/themes/hello-elementor-child/includes/custom-registration-form.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:33
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 33
+
+2023-12-19T07:49:47+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/themes/hello-elementor-child/includes/custom-registration-form.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:33
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 33
+
+2023-12-19T07:50:05+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/themes/hello-elementor-child/includes/otp/email-otp.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:38
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 38
+
+2023-12-19T08:05:28+00:00 CRITICAL Unmatched '}' in /var/www/html/wp-content/themes/hello-elementor-child/includes/custom-tab-product.php on line 679
+
+2023-12-19T08:08:40+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/themes/hello-elementor-child/geocode.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/hello-elementor-child/includes/custom-tab-product.php:130
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): custom_product_data_panels('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(54): do_action('woocommerce_pro...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/var/www/html/w...')
+#5 /var/www/html/wp-admin/includes/template.php(1456): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#6 /var/www/html/wp-admin/edit-form-advanced.php(714): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/themes/hello-elementor-child/includes/custom-tab-product.php on line 130
+
+2023-12-19T08:11:07+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/themes/hello-elementor-child/geocode.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/hello-elementor-child/includes/custom-tab-product.php:130
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): custom_product_data_panels('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(54): do_action('woocommerce_pro...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/var/www/html/w...')
+#5 /var/www/html/wp-admin/includes/template.php(1456): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#6 /var/www/html/wp-admin/edit-form-advanced.php(714): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/themes/hello-elementor-child/includes/custom-tab-product.php on line 130
+
+2023-12-19T08:11:43+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/themes/hello-elementor-child/geocode.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/hello-elementor-child/includes/custom-tab-product.php:130
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): custom_product_data_panels('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(54): do_action('woocommerce_pro...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/var/www/html/w...')
+#5 /var/www/html/wp-admin/includes/template.php(1456): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#6 /var/www/html/wp-admin/edit-form-advanced.php(714): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/themes/hello-elementor-child/includes/custom-tab-product.php on line 130
+
+2023-12-19T10:07:07+00:00 CRITICAL Unclosed '{' on line 83 in /var/www/html/wp-content/themes/hello-elementor-child/includes/custom-registration-form.php on line 91
+
+2023-12-19T11:15:36+00:00 CRITICAL Unclosed '{' on line 90 in /var/www/html/wp-content/themes/hello-elementor-child/includes/custom-registration-form.php on line 120
+
+2023-12-19T11:15:37+00:00 CRITICAL Unclosed '{' on line 90 in /var/www/html/wp-content/themes/hello-elementor-child/includes/custom-registration-form.php on line 120
+
+2023-12-19T11:15:39+00:00 CRITICAL Unclosed '{' on line 90 in /var/www/html/wp-content/themes/hello-elementor-child/includes/custom-registration-form.php on line 120
+

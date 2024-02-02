@@ -1,0 +1,16 @@
+2023-12-17T11:24:47+00:00 CRITICAL Cannot redeclare enqueue_custom_scripts() (previously declared in /var/www/html/wp-content/plugins/complete-custom-plugin/ccp.php:17) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 29
+
+2023-12-17T11:24:48+00:00 CRITICAL Cannot redeclare enqueue_custom_scripts() (previously declared in /var/www/html/wp-content/plugins/complete-custom-plugin/ccp.php:17) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 29
+
+2023-12-17T11:24:50+00:00 CRITICAL Cannot redeclare enqueue_custom_scripts() (previously declared in /var/www/html/wp-content/plugins/complete-custom-plugin/ccp.php:17) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 29
+
+2023-12-17T11:24:50+00:00 CRITICAL Cannot redeclare enqueue_custom_scripts() (previously declared in /var/www/html/wp-content/plugins/complete-custom-plugin/ccp.php:17) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 29
+
+2023-12-17T11:25:20+00:00 CRITICAL Cannot redeclare enqueue_custom_scripts() (previously declared in /var/www/html/wp-content/plugins/complete-custom-plugin/ccp.php:17) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 29
+
+2023-12-17T11:25:20+00:00 CRITICAL Cannot redeclare enqueue_custom_scripts() (previously declared in /var/www/html/wp-content/plugins/complete-custom-plugin/ccp.php:17) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 29
+
+2023-12-17T11:26:35+00:00 CRITICAL Cannot redeclare enqueue_custom_scripts() (previously declared in /var/www/html/wp-content/plugins/complete-custom-plugin/ccp.php:17) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 29
+
+2023-12-17T11:26:36+00:00 CRITICAL Cannot redeclare enqueue_custom_scripts() (previously declared in /var/www/html/wp-content/plugins/complete-custom-plugin/ccp.php:17) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 29
+

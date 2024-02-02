@@ -1,0 +1,104 @@
+2023-12-15T06:07:29+00:00 CRITICAL Cannot redeclare add_custom_register_button() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:28) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 35
+
+2023-12-15T06:07:43+00:00 CRITICAL Cannot redeclare add_custom_register_button() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:28) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 35
+
+2023-12-15T09:45:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "enqueue_child_theme_scripts" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-includes/general-template.php(3052): do_action('wp_head')
+#7 /var/www/html/wp-content/themes/hello-elementor/header.php(24): wp_head()
+#8 /var/www/html/wp-includes/template.php(790): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(725): load_template('/var/www/html/w...', true, Array)
+#10 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/wp-content/themes/hello-elementor/index.php(15): get_header()
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+
+2023-12-15T09:45:12+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "enqueue_child_theme_scripts" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-includes/general-template.php(3052): do_action('wp_head')
+#7 /var/www/html/wp-content/themes/hello-elementor/header.php(24): wp_head()
+#8 /var/www/html/wp-includes/template.php(790): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(725): load_template('/var/www/html/w...', true, Array)
+#10 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/wp-content/themes/hello-elementor/index.php(15): get_header()
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+
+2023-12-15T10:19:22+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "enqueue_child_theme_scripts" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-includes/general-template.php(3052): do_action('wp_head')
+#7 /var/www/html/wp-content/themes/hello-elementor/header.php(24): wp_head()
+#8 /var/www/html/wp-includes/template.php(790): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(725): load_template('/var/www/html/w...', true, Array)
+#10 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/wp-content/themes/hello-elementor/index.php(15): get_header()
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+
+2023-12-15T10:19:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "enqueue_child_theme_scripts" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-includes/general-template.php(3052): do_action('wp_head')
+#7 /var/www/html/wp-content/themes/hello-elementor/header.php(24): wp_head()
+#8 /var/www/html/wp-includes/template.php(790): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(725): load_template('/var/www/html/w...', true, Array)
+#10 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/wp-content/themes/hello-elementor/index.php(15): get_header()
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+
+2023-12-15T10:19:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "enqueue_child_theme_scripts" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-includes/general-template.php(3052): do_action('wp_head')
+#7 /var/www/html/wp-content/themes/hello-elementor/header.php(24): wp_head()
+#8 /var/www/html/wp-includes/template.php(790): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(725): load_template('/var/www/html/w...', true, Array)
+#10 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /var/www/html/wp-content/themes/hello-elementor/index.php(15): get_header()
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+

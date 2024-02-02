@@ -1,0 +1,8 @@
+2023-12-28T09:06:35+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/html/wp-includes/class-wp-hook.php on line 329
+
+2023-12-28T09:10:06+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 345
+
+2023-12-28T09:12:40+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 345
+
+2023-12-28T09:12:56+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/html/wp-includes/class-wp-hook.php on line 329
+

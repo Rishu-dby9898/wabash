@@ -1,0 +1,10 @@
+2023-12-11T05:41:00+00:00 CRITICAL Cannot redeclare custom_owner_data_tab() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:84) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 112
+
+2023-12-11T05:41:00+00:00 CRITICAL Cannot redeclare custom_owner_data_tab() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:84) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 112
+
+2023-12-11T05:41:02+00:00 CRITICAL Cannot redeclare custom_owner_data_tab() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:84) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 112
+
+2023-12-11T05:41:02+00:00 CRITICAL Cannot redeclare custom_owner_data_tab() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:84) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 112
+
+2023-12-11T05:41:48+00:00 CRITICAL Cannot redeclare custom_owner_data_tab() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:84) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 112
+

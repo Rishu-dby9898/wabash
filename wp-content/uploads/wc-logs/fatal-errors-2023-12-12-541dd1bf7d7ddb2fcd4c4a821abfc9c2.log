@@ -1,0 +1,35 @@
+2023-12-12T07:03:40+00:00 CRITICAL Uncaught Error: Call to undefined function display_acf_fields() in /var/www/html/wp-content/plugins/custom-field-plugin.php/cfp.php:208
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): custom_product_data_panels_specification('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(54): do_action('woocommerce_pro...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/var/www/html/w...')
+#5 /var/www/html/wp-admin/includes/template.php(1456): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#6 /var/www/html/wp-admin/edit-form-advanced.php(714): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/custom-field-plugin.php/cfp.php on line 208
+
+2023-12-12T07:03:48+00:00 CRITICAL Uncaught Error: Call to undefined function display_acf_fields() in /var/www/html/wp-content/plugins/custom-field-plugin.php/cfp.php:208
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): custom_product_data_panels_specification('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(54): do_action('woocommerce_pro...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/var/www/html/w...')
+#5 /var/www/html/wp-admin/includes/template.php(1456): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#6 /var/www/html/wp-admin/edit-form-advanced.php(714): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/custom-field-plugin.php/cfp.php on line 208
+
+2023-12-12T10:02:33+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-content/themes/hello-elementor-child./custom-tab.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:12
+Stack trace:
+#0 /var/www/html/wp-settings.php(611): include()
+#1 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 12
+

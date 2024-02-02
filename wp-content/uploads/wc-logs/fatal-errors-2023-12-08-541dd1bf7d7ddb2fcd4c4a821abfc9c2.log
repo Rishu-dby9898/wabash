@@ -1,0 +1,16 @@
+2023-12-08T10:00:18+00:00 CRITICAL Cannot redeclare save_custom_field_value() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:28) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 73
+
+2023-12-08T10:00:19+00:00 CRITICAL Cannot redeclare save_custom_field_value() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:28) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 73
+
+2023-12-08T10:00:19+00:00 CRITICAL Cannot redeclare save_custom_field_value() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:28) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 73
+
+2023-12-08T10:00:20+00:00 CRITICAL Cannot redeclare save_custom_field_value() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:28) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 73
+
+2023-12-08T10:00:21+00:00 CRITICAL Cannot redeclare save_custom_field_value() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:28) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 73
+
+2023-12-08T10:00:21+00:00 CRITICAL Cannot redeclare save_custom_field_value() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:28) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 73
+
+2023-12-08T10:00:22+00:00 CRITICAL Cannot redeclare save_custom_field_value() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:28) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 73
+
+2023-12-08T10:00:23+00:00 CRITICAL Cannot redeclare save_custom_field_value() (previously declared in /var/www/html/wp-content/themes/hello-elementor-child/functions.php:28) in /var/www/html/wp-content/themes/hello-elementor-child/functions.php on line 73
+
